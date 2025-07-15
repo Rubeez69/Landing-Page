@@ -1,0 +1,173 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__bar {
+  background-color: #1f2937;
+}
+
+.nav__list {
+  display: flex;
+  gap: 20px;
+  font-size: 1.125rem;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.nav__title {
+  color: #f9faf8;
+}
+
+.section__one {
+  background-color: #1f2937;
+  padding: 8em 0;
+}
+
+.first__col {
+  width: 45%;
+}
+
+.second__col {
+  width: 50%;
+  background-color: #667085;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second__col__text {
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.second__col__text p {
+  z-index: 999;
+}
+
+.min-height {
+  height: 200px;
+  min-height: 150px;
+}
+
+.hero__title {
+  font-size: 3rem;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero__text {
+  font-size: 1.125rem;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.hero__butt {
+  background-color: #3882f6;
+  padding: 0.5em 2em;
+  display: inline-block;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.black {
+  color: #585859;
+}
+
+.col {
+  width: 20%;
+}
+
+.wrapper {
+  padding: 3em 5em;
+}
+
+.col__square {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border: #3882f6 solid 4px;
+  border-radius: 10px;
+}
+
+.section__two__title {
+  font-size: 2.25rem;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+.section__three {
+  padding: 0.5em 0;
+  font-size: 2.25rem;
+  color: #1f2937;
+  font-style: italic;
+  background-color: #e5e7eb;
+  font-weight: 300;
+}
+
+.author {
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.section__four {
+  padding: 3em 0;
+}
+
+.section__four__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 6em;
+  background-color: #3882f6;
+  border-radius: 10px;
+  align-items: center;
+  color: #fff;
+}
+
+.section__four__content {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.white__border {
+  border: #fff solid 3px;
+}
