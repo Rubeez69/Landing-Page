@@ -171,3 +171,14 @@ a {
 .white__border {
   border: #fff solid 3px;
 }
+
+footer {
+  background-color: #1f2937;
+  padding: 2em 0;
+  text-align: center;
+  color: #fff;
+}
+
+.margin_top_butt {
+  margin-top: 1em;
+}
